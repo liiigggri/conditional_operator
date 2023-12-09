@@ -1,0 +1,146 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+    public static void main(String[] args){
+    boolean clientOS = true;
+    if ( clientOS == false ) {
+        System.out.println("Установите версию приложения для iOS");
+    } else {
+        System.out.println("Установите версию приложения для Android");
+    }
+    int clientDeviceYear = 2015;
+    if ( clientDeviceYear < 2015 ) {
+        if ( clientOS == false ) {
+            System.out.println("Установите облегчённую версию приложения для iOS по ссылке");
+            } else {
+                System.out.println("Установите облегчённую версию приложения для Anroid по ссылке");
+            }
+        }
+        if ( clientDeviceYear >= 2015 ) {
+            if ( clientOS == false ) {
+                System.out.println("Установите версию приложения для iOS");
+            } else {
+                System.out.println("Установите версию приложения для Anroid");
+            }
+            int year = 2021;
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                System.out.println("Год является високосным");
+            } else {
+                System.out.println("Год не является високосным");
+            }
+            int deliveryDistance = 95;
+            if ( deliveryDistance <= 20) {
+                System.out.println("Потребуется дней: 1");
+            }
+            if ( deliveryDistance > 20 && deliveryDistance < 60 ) {
+                    System.out.println("Потребуется дней: 2");
+            }
+            if ( deliveryDistance > 60 && deliveryDistance < 100 ) {
+                    System.out.println("Потребуется дней: 3");
+            }
+        }
+        
+        /******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+    public static void main(String[] args){
+    boolean clientOS = true;
+    if ( clientOS == false ) {
+        System.out.println("Установите версию приложения для iOS");
+    } else {
+        System.out.println("Установите версию приложения для Android");
+    }
+    int clientDeviceYear = 2015;
+    if ( clientDeviceYear < 2015 ) {
+        if ( clientOS == false ) {
+            System.out.println("Установите облегчённую версию приложения для iOS по ссылке");
+            } else {
+                System.out.println("Установите облегчённую версию приложения для Anroid по ссылке");
+            }
+        }
+        if ( clientDeviceYear >= 2015 ) {
+            if ( clientOS == false ) {
+                System.out.println("Установите версию приложения для iOS");
+            } else {
+                System.out.println("Установите версию приложения для Anroid");
+            }
+            int year = 2021;
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                System.out.println("Год является високосным");
+            } else {
+                System.out.println("Год не является високосным");
+            }
+            int deliveryDistance = 95;
+            if ( deliveryDistance <= 20) {
+                System.out.println("Потребуется дней: 1");
+            }
+            if ( deliveryDistance > 20 && deliveryDistance < 60 ) {
+                    System.out.println("Потребуется дней: 2");
+            }
+            if ( deliveryDistance > 60 && deliveryDistance < 100 ) {
+                    System.out.println("Потребуется дней: 3");
+            }
+        }
+        
+        int monthNumber = 12;
+        
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Принадлежит сезону зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Принадлежит сезону весна");
+                break;c
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Принадлежит сезону лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Принадлежит сезону Осень");
+                break;
+            default:
+        System.out.println("Такого месяца не существует");
+        }
+
+    }
+}
+
+    
+    
+    
+    
+    
+    
+
+
+    }
+}
+
+    
+    
+    
+    
+    
+    
+
